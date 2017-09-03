@@ -1,0 +1,6 @@
+framework module PKCCalendar {
+  umbrella header "PKCCalendar-umbrella.h"
+
+  export *
+  module * { export * }
+}

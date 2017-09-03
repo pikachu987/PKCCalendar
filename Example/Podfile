@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PKCCalendar_Example' do
+  pod 'PKCCalendar', :path => '../'
+
+  target 'PKCCalendar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
